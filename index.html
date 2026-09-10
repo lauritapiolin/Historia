@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestra Historia ✨</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fuentes bonitas desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Encabezado con contador -->
+  <header class="hero">
+    <h1>Nuestra Historia</h1>
+    <p class="subtitulo">Cada momento a tu lado cuenta...</p>
+    
+    <div class="contador-box">
+      <span class="contador-label">Llevamos juntos:</span>
+      <div id="contador" class="contador-numeros">Calculando...</div>
+    </div>
+  </header>
+
+  <!-- Contenedor del Timeline -->
+  <main class="timeline-container">
+    <div class="timeline-line"></div>
+
+    <!-- Hito 1 (a la izquierda) -->
+    <article class="timeline-item left">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="fecha">14 de Febrero, 2024</span>
+        <h3>El día que todo empezó</h3>
+        <div class="polaroid">
+          <img src="imagenes/foto1.jpg" alt="Primer encuentro">
+        </div>
+        <p>Ese café y esa primera conversación donde el tiempo se pasó volando...</p>
+      </div>
+    </article>
+
+    <!-- Hito 2 (a la derecha) -->
+    <article class="timeline-item right">
+      <div class="timeline-dot"></div>
+      <div class="timeline-card">
+        <span class="fecha">20 de Mayo, 2024</span>
+        <h3>Nuestro primer viaje juntos</h3>
+        <div class="polaroid">
+          <img src="imagenes/foto2.jpg" alt="Primer viaje">
+        </div>
+        <p>Cuando nos perdimos buscando el mirador, pero las risas lo valieron todo.</p>
+      </div>
+    </article>
+
+    <!-- Puedes duplicar más bloques <article> para agregar más fechas -->
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
